@@ -1,12 +1,19 @@
 var today = moment().format("dddd, MMM D YYYY ");
 
-var now = moment().format("hh:mm:ss A");
+var now = moment().format("hh:mm:ss A")
+// Makes it so the time runs without having to reload the page
+// Thanks Rahul and Ryan!
+setInterval(function() {$("#currentDay").text(moment().format("dddd, MMM D YYYY hh:mm:ss A"));
+
+}, 1000)
+ 
 
 // current day
 
-$("#currentDay").text(Date.now);
-
+// $("#currentDay").text(Date.now);
+// setInterval(now, 1000);
 // setInterval;
+
 
 /* planWorkday entries for each hour of the workday */
 var planWorkday = [
