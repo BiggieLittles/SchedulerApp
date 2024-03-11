@@ -10,6 +10,12 @@ When the time is coming later in the day the boxes will be GREEN
 
 I used the JUMBOTRON class accompanied by the bootstrap.api in this scheduler app and it helped me organize my HTML a little bit better than the starter code (in my opinion)
 
+Each time block has an input field and save button where users can store their schedule
+
+If saved it will store in their local storage
+
+This calendar is desktop and mobile compatible
+
 
 
 
@@ -24,3 +30,4 @@ I used the JUMBOTRON class accompanied by the bootstrap.api in this scheduler ap
 
 
 ![image](https://github.com/BiggieLittles/SchedulerApp/assets/156357409/491286dc-5fd7-473b-aace-e9f9cef72c4d)
+https://biggielittles.github.io/SchedulerApp/
